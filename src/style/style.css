@@ -1,0 +1,125 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333;
+  margin: 0px;
+  padding: 0;
+}
+
+p,
+h1,
+h2 {
+  color: white;
+}
+
+input {
+  color: black !important;
+}
+
+.App {
+  text-align: center;
+  width: 60%;
+  margin: 0px auto;
+}
+
+.App .nav-bar {
+  text-align: left;
+}
+
+.App .nav-bar h1 {
+  padding: 5px 0px;
+  margin: 0px;
+  font-size: 1.5em;
+}
+
+.App .main-content .search img {
+  width: 25%;
+}
+
+.App .main-content .search h2 {
+  font-size: 2em;
+}
+
+.App .main-content .search p {
+  font-size: 1.2em;
+}
+
+.App .main-content .search form input {
+  font-size: 16px;
+  width: 50%;
+  margin: 15px auto;
+  margin-bottom: 5px;
+  padding: 15px;
+  border-radius: 7px;
+  display: block;
+}
+
+.App .main-content .search form button {
+  cursor: pointer;
+  margin: 0px 15px;
+  padding: 10px 25px;
+  border-radius: 7px;
+  color: #333;
+  background-color: #ddd;
+  border: 2 solid #ddd;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.App .main-content .search form button:hover {
+  color: white;
+  border: 2 solid #ddd;
+  background: transparent;
+}
+
+.App .main-content .days-cards .city-card {
+  width: 30%;
+  margin: 15px auto;
+  border: 2px solid #ddd;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.App .main-content .days-cards .city-card image {
+  display: inline;
+}
+
+.App .main-content .days-cards .city-card p.description {
+  margin: 0;
+}
+
+.App .main-content .days-cards .city-card p.temp {
+  font-size: 2em;
+  margin: 0px;
+  font-weight: bolder;
+}
+
+.App .main-content .days-cards .city-card p.temp span {
+  font-weight: normal;
+  font-size: 0.5em;
+  position: relative;
+  bottom: 15px;
+  left: -5px;
+  margin: 0px;
+}
+
+.App .main-content .days-cards .city-card h2 {
+  margin: 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .App {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+  }
+  .App .nav-bar h1 {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+  }
+  .App .main-content .search img {
+    margin-top: 70px;
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
